@@ -1,8 +1,8 @@
 import os
-from src.env import EmailTriageEnv
-from src.models import Action
-from src.tasks import get_task
-from src.grader import grade
+from env import EmailTriageEnv
+from models import Action
+from tasks import get_task
+from grader import grade
 
 # ENV VARIABLES (mandatory)
 API_BASE_URL = os.getenv("API_BASE_URL")

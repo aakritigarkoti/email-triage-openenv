@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+fastapi
+uvicorn
+=======
+>>>>>>> 2274e9e635651e895ebc9f4ea4a9d53faa018ad8
 pydantic

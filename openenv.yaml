@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 name: email-triage-env
 description: A real-world email triage simulation environment where agents classify, respond, and manage emails with reward-based feedback.
 version: 1.0
@@ -20,4 +21,28 @@ action_space:
     - reply
     - ignore
 
+=======
+name: email-triage-env
+description: A real-world email triage simulation environment where agents classify, respond, and manage emails with reward-based feedback.
+version: 1.0
+
+entry_point: src.env:EmailTriageEnv
+
+tasks:
+  - easy
+  - medium
+  - hard
+
+observation_space:
+  type: list
+  description: List of emails with subject, body, sender
+
+action_space:
+  type: discrete
+  actions:
+    - classify
+    - reply
+    - ignore
+
+>>>>>>> 2274e9e635651e895ebc9f4ea4a9d53faa018ad8
 reward_range: [0.0, 1.0]
